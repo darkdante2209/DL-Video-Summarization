@@ -1,0 +1,45 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+img.figmini {
+	max-width: 96px;
+	cursor: pointer;
+}
+
+img.figmini:hover {
+	transform: scale(2);
+	transition: all 100ms ease-in;
+}
+
+#pane {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	//padding: 8px 32px;
+	//max-height: 224px;
+	white-space: nowrap;
+	//background-color: black;
+	cursor: pointer;
+}
+
+.row-indoor {
+	background-color: #dfd
+}
+
+.row-outdoor {
+	background-color: #ddf
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
